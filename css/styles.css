@@ -1,0 +1,157 @@
+body{
+    background-color: #F0F2F5;
+    font-family: Helvetica;
+}
+
+/* FORMULARIO */
+#form-formulario{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-top: 40%;
+    padding: 4% 4% 1% 4%;
+    background-color: #FFFFFF;
+    box-shadow: .5px 10px 15px rgba(29, 29, 29, 0.2);
+}
+
+#form-formulario input{
+    font-size: 20px;
+    border-radius: 5px;
+    padding-bottom: 3%;
+}
+
+#form-formulario input::placeholder{
+    font-size: 17px;
+}
+
+#form-formulario #btn-entrar{
+    width: 100%;
+    font-size: 20px;
+}
+
+#form-formulario #link-esqueceu{
+    text-align: center;
+}
+
+#link-esqueceu a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#link-esqueceu a:hover{
+    text-decoration: underline;
+}
+
+#form-formulario #btn-criar{
+    text-align: center;
+}
+
+#btn-criar button{
+    background-color: #42B72A;
+    padding: 3%;
+}
+
+#link-criarPag{
+    margin-top: 8%;
+    text-align: center;
+    font-size: 14px;
+}
+
+#link-criarPag a{
+    text-decoration: none;
+    color: #1C1E21;
+}
+
+#link-criarPag a:hover{
+    text-decoration: underline;
+}
+
+/* IMAGEM */
+#corpo-img{
+    margin-left: -50%;
+    font-size: 28px;
+}
+
+#img-logo{
+    width: 80%;
+    margin-left: -58%;
+}
+
+/* RODAPE */
+footer{
+    background-color: #FAFAFA;
+    text-align: center;
+    margin-top: 6%;
+}
+
+#p-info{
+    text-align: center;
+    margin-top: 5.5%;
+    color: #8A8D91;
+    font-size: 12px;
+}
+
+#rodape a{
+    margin-left: 1%;
+    text-decoration: none;
+    color: #8A8D91;
+    font-size: 12px;
+}
+
+#rodape a:hover{
+    text-decoration: underline;
+}
+
+#rodape a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.meta{
+    text-align: center;
+    color: #8A8D91;
+    font-size: 12px;
+    margin-top: 1%;
+}
+
+@media(max-width: 1200px){
+    #form-formulario{
+        width: 170%;
+    }
+
+    #link-criarPag{
+        margin-left: 40%;
+    }
+
+    /* IMAGEM */
+    #corpo-img{
+        margin-left: -80%;
+        font-size: 28px;
+    }
+
+    #img-logo{
+        width: 80%;
+        margin-left: -88%;
+    }
+}
+
+@media(max-width: 766px){
+    #form-formulario{
+        width: 100%;
+    }
+
+    #link-criarPag{
+        margin-left: 0%;
+        font-size: 16px;
+    }
+
+    #corpo-img{
+        margin-left: 0%;
+        font-size: 28px;
+    }
+
+    #img-logo{
+        width: 70%;
+        margin-left: 0%;
+    }
+}
